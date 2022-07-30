@@ -1,8 +1,9 @@
 :root{
     --color-de-fondo: #eaeaea;
     --color-de-fondo2: #EAF2FD;
-   --cor-de-link: #000;
-   --color-azul: #2A7AE4;
+    --color-de-texto: #464646;
+    --color-de-link: #000;
+    --color-azul: #2A7AE4;
 }
 
 /* reset */
@@ -20,12 +21,12 @@ html {
 
 body {
     box-sizing: border-box;
-    background-color: var(--color-de-fondo) ;
     font-family: 'Raleway';
     font-weight: 500;
     margin: 0;
     padding: 0;
     line-height: 1;
+    color: var(--color-de-texto);
 }
 ol, ul,li {
     list-style: none;
@@ -35,10 +36,23 @@ a{
     color: var(--color-de-link);
 }
 
-/*Sección Title*/
+.container {
+    padding-right: 6%;
+    padding-left: 6%;
+}
 
-section.title{
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+}
 
+@media screen and (min-width: 1200px) {
+    .container {
+        padding-left: calc((100% - 1120px)/2);
+        padding-right: calc((100% - 1120px)/2);
+    }
 }
 
 /*Sección About*/

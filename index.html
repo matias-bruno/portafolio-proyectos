@@ -8,15 +8,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Fuente del Proyecto Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Archivo CSS de Fontawesome -->
+	<link type="text/css" rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <!-- Referencias de la hoja de estilo de Css -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/title.css">
     <title> Mi Portafolio</title>
 </head>
 <body>
     <!-- Sección del Menú  -->
     <div class="tudo">
-    <section class="menu">
+    <section class="menu container">
         <header class="menu__header">
             <img src="assets\vector.png">
             <h3 class="menu__title">Matías Bruno</h3>
@@ -27,7 +30,7 @@
                 <li class="menu__list__item"><a href="#skills">Skills</a></li>
                 <li class="menu__list__item"><a href="#formacion">Formación</a></li>
                 <li class="menu__list__item"><a href="#projects">Proyectos</a></li>
-                <li class="menu__list__item"><a href="mailto:mati.bruno1@gmail.com">mati.bruno1@gmail.com</a></li>
+                <li class="menu__list__item" id="menu__item__contacto"><a href="mailto:mati.bruno1@gmail.com">mati.bruno1@gmail.com</a></li>
             </ul>
             <div class="menu__list__item__contato"><a href="mailto:mati.bruno1@gmail.com">mati.bruno1@gmail.com</a></div>
         </nav>
@@ -35,17 +38,14 @@
 
     <!-- Sección del Header/Title/Hero -->
     <section class="title">
-        <div class="title__div">
+        <div class="title__div container">
             <img class="title__profile" src="assets\profile.png">
             <div class="title__container">
                 <h2 class="title__bio">Hola, mi nombre es Matías Bruno y construyo páginas web</h2>
                 <h3 class="title__subsection">Tengo formación en Desarrollo Web y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
                 <ul class="title__network">
-                     <!-- Pon los enlaces de tus redes sociales favoritas -->
-                    <li class="title__network__item"><a href="">Github <img src="assets\arrow.png"> </a></li>
-                    <li class="title__network__item"><a href="">Linkedin <img src="assets\arrow.png"></a></li>
-                    <li class="title__network__item"><a href="">Instagram <img src="assets\arrow.png"></a></li>
-                    <li class="title__network__item"><a href="">Currículo <img src="assets\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="https://github.com/matias-bruno/">Github <i class="fab fa-github fa-lg"></i></a></li>
+                        <li class="title__network__item"><a href="https://www.linkedin.com/in/matias-bruno/">Linkedin <i class="fab fa-linkedin fa-lg"></i></a></li>
                 </ul>
             </div>
         </div>
