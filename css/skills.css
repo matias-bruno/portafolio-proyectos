@@ -1,0 +1,26 @@
+section.skills{
+    background-color: var(--color-de-fondo);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.skills__title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.skills__line {
+    align-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skills__box {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    justify-content: center;
+    margin: 10px;
+    width: 120px;
+}
