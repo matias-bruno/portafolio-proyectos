@@ -41,6 +41,14 @@ a{
     padding-left: 6%;
 }
 
+.footer__rodape {
+    text-align: center;
+    padding: 20px;
+}
+.footer__rodape p {
+    margin: 5px 0;
+}
+
 @media screen and (min-width: 1024px) {
     .container {
         padding-left: calc((100% - 940px)/2);
