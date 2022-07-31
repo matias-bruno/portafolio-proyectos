@@ -19,6 +19,9 @@ section.academic{
     width: 200px;
     margin: 10px;
 }
+.academic__courses__list img, .academic__courses__list h4 {
+    margin-bottom: 0.5rem;
+}
 
 @media (min-width: 768px) {
     .academic__courses {
