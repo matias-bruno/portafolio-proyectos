@@ -1,34 +1,41 @@
-section.title{
-    background-color: var(--color-de-fondo);
+section.title {
+    background-color: var(--color-bg);
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 .title__bio {
     font-size: 40px;
     line-height: 1.2em;
 }
+
 .title__container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.title__container > * {
+
+.title__container>* {
     margin-bottom: 1rem;
 }
+
 .title__div {
     flex-direction: column-reverse;
     align-items: center;
 }
+
 .title__profile {
     border-radius: 50%;
     width: 100%;
     max-width: 400px;
 }
+
 .title__network {
     display: flex;
     margin: 0;
     padding: 0;
 }
+
 .title__network__item {
     margin-right: 20px;
     margin-bottom: 20px;

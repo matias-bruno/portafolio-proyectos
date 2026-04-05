@@ -1,25 +1,31 @@
-section.academic{
-    background-color: var(--color-de-fondo2);
+section.academic {
+    background-color: var(--color-bg-alt);
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 .academic__title {
     font-size: 32px;
     margin-bottom: 20px;
     text-align: center;
 }
+
 .academic__courses {
     flex-direction: column;
 }
+
 .academic__courses__box {
     display: flex;
     justify-content: center;
 }
+
 .academic__courses__list {
     width: 200px;
     margin: 10px;
 }
-.academic__courses__list img, .academic__courses__list h4 {
+
+.academic__courses__list img,
+.academic__courses__list h4 {
     margin-bottom: 0.5rem;
 }
 
